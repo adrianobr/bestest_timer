@@ -1,36 +1,36 @@
 # Portuguese strings go here for Rails i18n
-"pt":
+ pt:
   bestest_timer:
-    # Please don't forget to translate the plugin name. ("Bestest" is "better than the best" in a grammatically incorrect way.)
-    plugin_name: "Bestest Punch Clock for Redmine"
+    # Por favor, não se esqueça de traduzir o nome do plugin. ("Bestest" significa "melhor que o melhor" de forma gramaticalmente incorreta.)
+    plugin_name: "Melhor Relógio de Ponto para Redmine"
 
-    start: "Contar"
-    recording: "(Contando)"
+    start: "Marcar entrada"
+    recording: "(Registrando)"
 
     details: "Detalhes"
-    time: "Tempos gastos:"
+    time: "Tempo gasto:"
     project: "Projeto:"
     issue: "Tarefa:"
 
     activity: "Atividade"
 
-    comment: "Comentar"
+    comment: "Comentário"
 
-    commit: "Confirmar"
+    commit: "Marcar saída"
     discard: "Descartar"
     close: "Fechar"
 
-    logging_since: "Registrado para %{descr} desde %{time}"
-    notification_title: "Trabalhado %{hours} horas para %{descr}"
-    should_punch_in_message: "You were last seen at %{time}."
-    should_punch_in_title: "Don't forget to punch in!"
-    should_punch_out_message: "You have not been seen since %{time}, but are still logging time to %{descr}."
-    should_punch_out_title: "Still working?"
+    logging_since: "Registrando em %{descr} desde %{time}"
+    notification_title: "Registradas %{hours} horas em %{descr}"
+    should_punch_in_message: "Sua última atividade foi registrada às %{time}."
+    should_punch_in_title: "Não se esqueça de marcar a entrada!"
+    should_punch_out_message: "Você não teve atividade desde %{time}, mas ainda está registrando tempo em %{descr}."
+    should_punch_out_title: "Ainda está trabalhando?"
     state_descr_issue: "%{project}, tarefa #%{issue}"
     state_descr: "%{project}"
 
-    need_rest_api: "Por favor verifique a configuração 'Ativar serviços REST'' esta\nhabilitada no Redmine Administração/Configuração/API."
-    no_permission: "Você não tem permissão para registrar o tempo para %{project}."
-    not_enabled: "Time tracking not enabled for %{project}."
-    nothing_inferred: "Abra um projeto ou navegue até uma tarefa."
-    submit_failed: "Falha ao registrar a tempo de trabalho para Redmine: %{error}"
+    need_rest_api: "Verifique se a opção 'Habilitar serviço web REST' está ativada em Administração do Redmine > Configurações > API."
+    no_permission: "Você não tem permissão para registrar tempo em %{project}."
+    not_enabled: "O controle de tempo não está habilitado para %{project}."
+    nothing_inferred: "Não foi possível identificar um projeto ou tarefa a partir da página atual."
+    submit_failed: "Falha ao registrar o turno de trabalho no Redmine: %{error}"
