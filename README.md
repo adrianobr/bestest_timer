@@ -30,6 +30,12 @@ And that's all there is to it.
 
 The `master` branch tracks the latest stable release.
 
+### `v1.3` (2025-11-03)
+
+Compatible Redmine 5.X
+* Update init.rb
+* Update translate PT-BR and PT
+  
 ### `v1.2` (2017-12-02)
 
 The "Oops, I forgot" release.
