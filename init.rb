@@ -1,4 +1,4 @@
-require_relative 'html_head_hook_listener'
+require_relative 'lib/html_head_hook_listener'
 
 Redmine::Plugin.register :bestest_timer do
   name 'Bestest Punch Clock for Redmine'
