@@ -3,7 +3,8 @@
     height: 24px;
     background-color: white;
     border: 0px;
-    border-radius: 3px;
+    margin-right: 5px
+    border-radius: 5px;
 }
 
 .bestest_timer_dialog .ui-dialog-titlebar-close {
